@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+#recipits_title{
+    height:300px;
+    background-image: url(../imgs/chef-img.jpg);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+#title{
+    color: aliceblue;
+   
+}
+
+
+#main-recipes-page{
+  margin-top: 30px;
+
+}
+.recipe{
+    margin: 20px;
+    text-align: center;
+}
+.recipe-img{
+ height: 200px;
+ width: 300px;
+}
